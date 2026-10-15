@@ -1,0 +1,12 @@
+FRONT-END DO PROJETO Y3D
+
+1-frontend-react/  -> React + Vite + TypeScript (a aplicação da rubrica)
+   npm install
+   npm run dev        (http://localhost:5173, API em /api -> localhost:3000)
+   npm run build      (checa tipos + gera dist/)
+   Dockerfile incluido (use com contexto = esta pasta)
+
+2-loja-php-front/  -> arquivos estaticos da loja em PHP
+   assets/ (css, js, img, video), ts/ (fonte TypeScript), admin.css
+   npm install && npm run build   (compila ts/ para assets/js/)
+   As paginas .php (index.php, header.php etc.) ficam de fora por serem codigo de servidor.
